@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  border-radius: 6px;
+  position: relative;
+  width: 550px;
+  height: auto;
+  padding: 50px 40px;
+  display: grid;
+  background-color: #eecc77;
+  #text {
+    span {
+    }
+    width: auto;
+    height:auto;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.25em;
+  }
+  .twitter-author{
+    display: flex;
+    justify-content: space-between;
+    .author-box {
+      width: auto;
+      height:auto;
+      padding-top: 20px;
+      font-size: 1.3em;
+      font-weight: 700;
+      font-family: 'Dancing Script', cursive;
+    }
+    #tweet-quote {
+      padding-top: 20px;
+      justify-content: left;
+      color: #333;
+      .fa-twitter:hover{
+        opacity: 0.8
+      }
+    }
+    }
+  #new-quote {
+    width: 130px;
+  }
+  .button {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
